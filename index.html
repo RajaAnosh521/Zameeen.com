@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind CSS -->
+  <link href="css/output.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+    rel="stylesheet">
+  <!-- Google fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-success py-0 my-0 px-0">
+      <div class="container-fluid">
+        <span class="navbar-toggler-icon text-white font-bold cursor-pointer">
+          <span class="material-symbols-outlined">
+            home
+          </span>
+        </span>
+        <div class="collapse navbar-collapse ml-2 d:flex" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white font-bold visible gap-4" aria-current="page" href="#">PROPERTY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-bold visible gap-4" href="#">PLOT FINDER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-bold visible gap-4" href="#">AREA GUIDES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-bold visible gap-4" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-bold visible gap-4" href="#">MAPS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white font-bold visible gap-4" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                TOOLS
+              </a>
+              <ul class="dropdown-menu bg-white">
+                <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white font-bold visible gap-4" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                MORE
+              </a>
+              <ul class="dropdown-menu bg-white">
+                <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-dark ml-11" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex ms-auto align-items-center my-1 mr-2" role="search">
+          <input class="form-control form-control-sm px-2 py-0" type="search" placeholder="Property ID"
+            aria-label="Search">
+          <button class="btn btn-light px-2 py-0 cursor-pointer ml-1 flex-grow-1" type="submit">Search</button>
+        </form>
+        <div class="icons cursor-pointer">
+          <span class="material-symbols-outlined text-white mr-2 shadow-lg">
+            settings
+          </span>
+          <span class="material-symbols-outlined text-white mr-2 shadow-lg">
+            person
+          </span>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-0 my-0 px-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo image" src="images/Zameen-logo.jpg" alt="Zameen Logo" style="width: 7em; height: 1.5em;">
+        </a>
+        <div class="collapse navbar-collapse ml-2" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-gray-500 visible gap-4" aria-current="page" href="#">BUY ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-gray-500 visible gap-4" href="#">RENT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-gray-500 visible gap-4" href="#">AGENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-gray-500 visible gap-4" href="#">NEW PRODUCTS</a>
+            </li>
+          </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <div class="relative w-full bg-cover bg-center bg-no-repeat">
+    <img src="https://www.zameen.com/assets/imageBackgroundLarge.deeb0c70dcee6ae1d029e18e0dcc4d89.webp" alt=""
+      style="height: 510px; width: 100%; position: absolute; top: 0; left: 0; z-index: -1;">
+    <div class="image_text text-white text-3xl" style="padding-left: 522px; padding-top: 8%;">
+      <span>Search Properties for sale in Pakistan</span>
+      <div class="buttons flex items-center gap-3" style="padding-left: 69px;">
+        <button type="button"
+          class="toggle-button inline-block w-[89px] mt-4 text-lg border border-white text-white bg-transparent hover:bg-white hover:text-black">
+          BUY
+        </button>
+        <button type="button"
+          class="toggle-button inline-block w-[89px] mt-4 text-lg border border-white text-white bg-transparent hover:bg-white hover:text-black">
+          RENT
+        </button>
+        <button type="button"
+          class="toggle-button inline-block w-[122px] mt-4 text-lg border border-white text-white bg-transparent hover:bg-white hover:text-black">
+          PROJECTS
+        </button>
+      </div>
+      <!-- Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <!-- JavaScript to toggle classes -->
+      <script>
+        document.querySelectorAll('.toggle-button').forEach(button => {
+          button.addEventListener('click', () => {
+            // Reset all buttons
+            document.querySelectorAll('.toggle-button').forEach(btn => {
+              btn.classList.remove('bg-white', 'text-black', 'border-black');
+              btn.classList.add('bg-transparent', 'text-white', 'border-white');
+            });
+            // Set the clicked button
+            button.classList.remove('bg-transparent', 'text-white', 'border-white');
+            button.classList.add('bg-white', 'text-black', 'border-black');
+          });
+        });
+      </script>
+    </div>
+    <div class="bottom_btn bg-gray-900 mt-4 ml-[28rem] flex items-center justify-around p-4"
+      style="width: 42em; height: 5em;">
+      <div class="city bg-white flex mt-[-8px]" style="width: 9em; height: 3em; margin-left: -19px;">
+        <select class="w-full h-full">
+          <option value="Karachi">Karachi</option>
+          <option value="Karachi">Islamabad</option>
+          <option value="Karachi">Lahore</option>
+          <option value="Karachi">Attock</option>
+          <option value="Karachi">Rawalpindi</option>
+          <option value="Karachi">Gawadar</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+      <div class="location bg-white flex" style="width: 23em; height: 3em; margin-top: 0px;">
+        <input type="text" class="w-full h-full" placeholder="Location">
+      </div>
+      <button class="find-button bg-green-600 text-white h-full w-24 cursor-pointer hover:bg-green-700"
+        style="height: 3em; width: 6em; margin-top: -1px; margin-right: -19px;">Find</button>
+
+    </div>
+  </div>
+  </div>
+  <footer style="margin-top: 250px;">
+    <div class="footer bg-gray-900 mt-4 ml-[28rem] flex items
+    -center justify-around p-4" style="width: 42em; height:
+    5em;">
+    <div class="footer-text text-white flex items-center justify-center" style="width:
+    42em; height: 5em; margin-top: -1px; margin-left
+    : -19px;">
+    <p class="text-center">© Copyright 2007-2024 Zameeen.com. All rights reserved.</p>
+    </div>
+    
+  </footer>
+</body>
+
+</html>
